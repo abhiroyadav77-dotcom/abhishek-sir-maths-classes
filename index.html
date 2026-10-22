@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b2d5c">
+<meta name="application-name" content="Abhishek Sir Maths Classes">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="description" content="Abhishek Sir Maths Classes — Maths courses, online tests and study material.">
+<link rel="manifest" href="manifest.json">
+<title>Abhishek Sir Maths Classes</title>
+<style>
+:root { --blue:#0b2d5c; --blue2:#0756a5; --yellow:#ffc83d; --light:#f3f7ff; --white:#fff; --text:#17243a; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; font-family:Arial,sans-serif; background:var(--light); color:var(--text); line-height:1.6; }
+header { background:var(--blue); color:white; padding:16px 5%; position:sticky; top:0; z-index:10; box-shadow:0 3px 12px #0002; }
+.nav { max-width:1200px; margin:auto; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+.logo { font-size:20px; font-weight:bold; display:flex; align-items:center; gap:10px; } .logo img { width:48px; height:48px; object-fit:cover; border-radius:50%; border:2px solid var(--yellow); background:#061a35; }
+nav { display:flex; gap:8px; flex-wrap:wrap; }
+nav a { color:white; text-decoration:none; padding:8px 10px; border-radius:6px; }
+nav a:hover { background:#ffffff22; }
+.hero { padding:75px 20px; text-align:center; color:white; background:linear-gradient(130deg,#061a3a,#0879d7,#11a6d6); }
+.hero .tag { display:inline-block; background:#ffffff20; padding:6px 14px; border-radius:30px; }
+.hero h1 { font-size:clamp(30px,5vw,52px); line-height:1.2; margin:18px auto; max-width:850px; }
+.hero p { font-size:18px; } .hero .hindi { font-size:22px; font-weight:bold; }
+.btn { display:inline-block; padding:12px 20px; margin:6px 4px; border:0; border-radius:8px; background:var(--yellow); color:#17243a; text-decoration:none; font-weight:bold; cursor:pointer; font-size:15px; }
+.btn:hover { filter:brightness(.95); } .btn.blue { background:var(--blue2); color:white; } .btn.white { background:white; color:var(--blue); }
+.container { max-width:1150px; margin:auto; padding:42px 18px; }
+.section-title { text-align:center; margin-bottom:28px; } .section-title h2 { color:var(--blue); font-size:30px; margin-bottom:5px; } .section-title p { color:#627087; margin-top:0; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:20px; }
+.card { background:white; padding:22px; border-radius:14px; box-shadow:0 4px 18px #142b4b12; border:1px solid #e5ebf5; }
+.card h3 { color:var(--blue); margin-top:0; } .card .emoji { font-size:30px; } .card p { color:#56647a; }
+.band { background:#e6f0ff; border-radius:14px; padding:24px; text-align:center; }
+.notice { background:#fff8df; border-left:5px solid #f0b820; padding:12px 16px; border-radius:6px; }
+ul.clean { padding-left:20px; }
+input,select { display:block; width:100%; padding:12px; margin:8px 0 14px; border:1px solid #cbd5e1; border-radius:7px; font-size:16px; }
+.question { background:#f5f8ff; padding:15px; margin:14px 0; border-radius:10px; }
+.question label { display:block; margin:8px 0; cursor:pointer; }
+.question input { display:inline-block; width:auto; margin:0 6px 0 0; }
+.result { margin-top:15px; padding:15px; background:#e7f7eb; border-radius:8px; }
+footer { background:#061a35; color:white; text-align:center; padding:28px 15px; } footer a { color:#ffda70; }
+.small { font-size:13px; color:#66758a; } .hidden { display:none; }
+@media(max-width:650px) { header {position:static;} .nav {justify-content:center;} .logo {text-align:center;width:100%;justify-content:center;} .logo img {width:42px;height:42px;} nav {justify-content:center;} nav a {padding:7px;font-size:14px;} .hero {padding:48px 15px;} .hero p {font-size:16px;} .container {padding:30px 14px;} .section-title h2 {font-size:25px;} }
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="logo"><img src="icon-192.png" alt="Abhishek Sir Maths Classes logo"><span>Abhishek Sir Maths Classes</span></div><nav>
+<a href="#home">Home</a><a href="#courses">Courses</a><a href="#classes">Classes</a><a href="#notes">Study Material</a><a href="#test">Online Test</a><a href="#account">Student Account</a>
+</nav></div></header>
+<main>
+<section class="hero" id="home"><span class="tag">Welcome to Our Learning Platform</span><h1>Abhishek Sir Maths Classes</h1><p class="hindi">सीखें आसान तरीके से, सफलता पाएँ मेहनत से!</p><p>Class 9–12 | Teaching Exams | Defence Exams</p><a class="btn" href="#courses">Explore Courses</a><a class="btn white" href="#classes">Live Classes</a></section>
+<section class="container" id="courses"><div class="section-title"><h2>🎓 Our Courses</h2><p>अपनी कक्षा और लक्ष्य के अनुसार कोर्स चुनें।</p></div><div class="grid">
+<article class="card"><div class="emoji">📗</div><h3>Class 9 &amp; 10 Maths</h3><p>Concepts, formulas, NCERT questions और chapter-wise practice.</p><a class="btn blue" href="#classes">Start Learning</a></article>
+<article class="card"><div class="emoji">📘</div><h3>Class 11 &amp; 12 Maths</h3><p>Algebra, Calculus, Trigonometry और board exam preparation.</p><a class="btn blue" href="#classes">View Classes</a></article>
+<article class="card"><div class="emoji">👨‍🏫</div><h3>TGT / PGT / TET</h3><p>Teaching exams के लिए Mathematics और practice questions.</p><a class="btn blue" href="#test">Practice Test</a></article>
+<article class="card"><div class="emoji">🎯</div><h3>CTET &amp; Bihar STET</h3><p>Exam-oriented preparation और MCQ practice.</p><a class="btn blue" href="#test">Take a Test</a></article>
+<article class="card"><div class="emoji">✈️</div><h3>NDA &amp; Defence Exams</h3><p>Mathematics concepts और competitive exam practice.</p><a class="btn blue" href="#classes">Learn More</a></article>
+<article class="card"><div class="emoji">📝</div><h3>Maths Foundation</h3><p>Basic concepts मजबूत करें और सवाल हल करना सीखें।</p><a class="btn blue" href="#notes">Study Material</a></article>
+</div></section>
+<section class="container" id="classes"><div class="section-title"><h2>▶ Live &amp; Recorded Classes</h2><p>अपनी online classes यहाँ से देखें।</p></div><div class="grid">
+<div class="card"><h3>🔴 YouTube Live Classes</h3><p>Live lectures के लिए अपने YouTube channel का link जोड़ें।</p><a class="btn blue" href="https://www.youtube.com/" target="_blank" rel="noopener">Open YouTube</a></div>
+<div class="card"><h3>🎬 Recorded Classes</h3><p>पुराने lectures और chapter-wise videos देखें।</p><a class="btn blue" href="https://www.youtube.com/" target="_blank" rel="noopener">Watch Videos</a></div>
+<div class="card"><h3>📅 Class Schedule</h3><p>अपना वास्तविक timetable और lecture links यहाँ बाद में जोड़ें।</p><p><strong>Schedule:</strong> जल्द अपडेट होगा।</p></div>
+</div><p class="notice">नोट: अभी YouTube के सामान्य links दिए गए हैं। इन्हें अपने असली channel और video links से बदलना होगा।</p></section>
+<section class="container" id="notes"><div class="section-title"><h2>📚 Study Material &amp; PDF Notes</h2><p>Chapter-wise notes और formulas</p></div><div class="grid">
+<div class="card"><h3>Class 9 Maths</h3><p>Chapter-wise notes और formulas.</p><button class="btn blue" onclick="showPdfMessage()">Open / Download PDF</button></div>
+<div class="card"><h3>Class 10 Maths</h3><p>Board exam revision और practice notes.</p><button class="btn blue" onclick="showPdfMessage()">Open / Download PDF</button></div>
+<div class="card"><h3>Class 11 &amp; 12 Maths</h3><p>Important formulas और chapter notes.</p><button class="btn blue" onclick="showPdfMessage()">Open / Download PDF</button></div>
+<div class="card"><h3>Competitive Exams</h3><p>TGT, PGT, TET, CTET और NDA practice material.</p><button class="btn blue" onclick="showPdfMessage()">Open / Download PDF</button></div>
+</div><p id="pdfMessage" class="notice hidden" role="status">PDF अभी जोड़ी नहीं गई है। असली PDF फ़ाइल तैयार होने पर यहाँ लिंक जोड़ा जाएगा।</p></section>
+<section class="container" id="test"><div class="section-title"><h2>📝 Online Maths Test</h2><p>तीन सवाल हल करके अपना स्कोर देखें।</p></div><div class="card"><form id="quizForm">
+<div class="question"><strong>1. यदि x + 5 = 12, तो x का मान क्या है?</strong><label><input type="radio" name="q1" value="a"> 5</label><label><input type="radio" name="q1" value="b"> 7</label><label><input type="radio" name="q1" value="c"> 17</label></div>
+<div class="question"><strong>2. x² − 9 का गुणनखंड कौन-सा है?</strong><label><input type="radio" name="q2" value="a"> (x − 3)(x + 3)</label><label><input type="radio" name="q2" value="b"> (x − 9)(x + 1)</label><label><input type="radio" name="q2" value="c"> (x − 3)²</label></div>
+<div class="question"><strong>3. त्रिभुज के तीनों कोणों का योग कितना होता है?</strong><label><input type="radio" name="q3" value="a"> 90°</label><label><input type="radio" name="q3" value="b"> 360°</label><label><input type="radio" name="q3" value="c"> 180°</label></div>
+<button type="submit" class="btn">Submit Test</button><button type="reset" class="btn white">Try Again</button></form><div id="quizResult" class="result hidden" aria-live="polite"></div><p class="small">यह एक छोटा demo test है। अभी परिणाम इसी पेज पर दिखेगा।</p></div></section>
+<section class="container" id="account"><div class="section-title"><h2>👨‍🎓 Student Account</h2><p>Demo registration और login</p></div><div class="grid">
+<div class="card"><h3>Create Account</h3><form id="registerForm"><label for="regName">Student Name</label><input id="regName" required maxlength="60" placeholder="अपना नाम लिखें"><label for="regEmail">Email</label><input id="regEmail" type="email" required placeholder="आपका email"><label for="regPassword">Password</label><input id="regPassword" type="password" required minlength="6" placeholder="कम से कम 6 अक्षर"><button class="btn blue" type="submit">Register</button></form><p class="small">Demo: जानकारी इसी browser में रखी जाती है। संवेदनशील या असली password इस्तेमाल न करें।</p></div>
+<div class="card"><h3>Student Login</h3><form id="loginForm"><label for="loginEmail">Email</label><input id="loginEmail" type="email" required placeholder="Registered email"><label for="loginPassword">Password</label><input id="loginPassword" type="password" required placeholder="Password"><button class="btn blue" type="submit">Login</button></form><div id="accountMessage" class="result hidden" aria-live="polite"></div><button id="logoutBtn" class="btn white hidden" type="button">Logout</button></div>
+</div><p class="notice">महत्वपूर्ण: यह demo account system है, सुरक्षित production login नहीं। असली students के accounts, password security और online records के लिए server और database की आवश्यकता होगी।</p></section>
+<section class="container"><div class="band"><h2>आपकी मेहनत, आपकी सफलता!</h2><p>Practice करते रहें, concepts समझें और हर दिन कुछ नया सीखें।</p><a class="btn" href="#courses">Explore Courses</a></div></section>
+</main>
+<footer><h3>Abhishek Sir Maths Classes</h3><p>Learn • Practice • Improve</p><p>© <span id="year"></span> Abhishek Sir Maths Classes</p><p class="small">यह educational website template है। अपने वास्तविक links और contact details जोड़ें।</p></footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+function showPdfMessage(){document.getElementById("pdfMessage").classList.remove("hidden");}
+document.getElementById("quizForm").addEventListener("submit",function(e){e.preventDefault();const answers={q1:"b",q2:"a",q3:"c"};let score=0,attempted=0;for(const question in answers){const chosen=this.querySelector('input[name="'+question+'"]:checked');if(chosen){attempted++;if(chosen.value===answers[question])score++;}}const result=document.getElementById("quizResult");result.classList.remove("hidden");result.textContent="आपका स्कोर: "+score+"/3. Attempted: "+attempted+"/3.";});
+document.getElementById("quizForm").addEventListener("reset",function(){const result=document.getElementById("quizResult");result.classList.add("hidden");result.textContent="";});
+function readStudents(){try{return JSON.parse(localStorage.getItem("mathClassDemoStudents")||"{}");}catch(e){return {};}}
+function showAccountMessage(message){const box=document.getElementById("accountMessage");box.textContent=message;box.classList.remove("hidden");}
+document.getElementById("registerForm").addEventListener("submit",function(e){e.preventDefault();const name=document.getElementById("regName").value.trim();const email=document.getElementById("regEmail").value.trim().toLowerCase();const password=document.getElementById("regPassword").value;if(!name||!email||password.length<6){alert("कृपया सही जानकारी भरें। Password कम से कम 6 अक्षर का होना चाहिए।");return;}const students=readStudents();if(students[email]){alert("इस email से demo account पहले से मौजूद है। Login करें।");return;}students[email]={name:name,password:password};try{localStorage.setItem("mathClassDemoStudents",JSON.stringify(students));alert("Demo account बन गया! अब Login करें।");this.reset();}catch(error){alert("Browser में जानकारी सेव नहीं हो पाई।");}});
+document.getElementById("loginForm").addEventListener("submit",function(e){e.preventDefault();const email=document.getElementById("loginEmail").value.trim().toLowerCase();const password=document.getElementById("loginPassword").value;const student=readStudents()[email];if(!student||student.password!==password){showAccountMessage("Email या password सही नहीं है।");return;}showAccountMessage("Welcome, "+student.name+"! Demo login सफल रहा।");document.getElementById("logoutBtn").classList.remove("hidden");});
+document.getElementById("logoutBtn").addEventListener("click",function(){document.getElementById("accountMessage").textContent="आप demo account से logout हो गए हैं।";this.classList.add("hidden");document.getElementById("loginForm").reset();});
+if ("serviceWorker" in navigator) { window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js").catch(() => {})); }
+</script>
+</body>
+</html>
